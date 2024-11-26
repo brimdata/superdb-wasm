@@ -22,6 +22,6 @@ jobs:
           go-version: "1.23"
 
       - name: Publish to NPM
-        run: npm publish
+        run: npm publish --provenance --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
