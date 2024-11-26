@@ -48,3 +48,14 @@ npx serve .
 Then open http://localhost:3000
 
 Ensure the numbers "101 102 103" appear on the page. This means the wasm file was successfully used to add 100 to the numbers 1, 2, and 3.
+
+## Publishing
+
+There is a GitHub Action workflow that will publish the package to NPM when a tag is pushed to the repo that starts with "v". So to publish a new version, run these commands on your local computer using the version you wish to publish.
+
+```
+npm version 0.0.1
+git push
+```
+
+That should do it. Check that the GitHub Actions workflow starts and completes successfully. Then you should see it on NPM.
