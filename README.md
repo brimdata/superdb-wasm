@@ -55,7 +55,7 @@ There is a GitHub Action workflow that will publish the package to NPM when a ta
 
 ```
 npm version 0.0.1
-git push
+git push --tags
 ```
 
 That should do it. Check that the GitHub Actions workflow starts and completes successfully. Then you should see it on NPM.
