@@ -10,7 +10,7 @@
   ],
   "scripts": {
     "build": "GOARCH=wasm GOOS=js go build -tags=noasm -o superdb.wasm.full main.go && gzip -9 superdb.wasm.full -c > superdb.wasm && rm superdb.wasm.full",
-    "prepack": "yarn clean && yarn build",
+    "prepare": "yarn clean && yarn build",
     "clean": "rm -fr superdb.wasm"
   }
 }
