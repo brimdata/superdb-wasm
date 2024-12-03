@@ -9,14 +9,14 @@ import (
 	"strings"
 	"syscall/js"
 
-	"github.com/brimdata/zed"
-	"github.com/brimdata/zed/compiler"
-	"github.com/brimdata/zed/compiler/parser"
-	"github.com/brimdata/zed/pkg/storage"
-	"github.com/brimdata/zed/runtime"
-	"github.com/brimdata/zed/zbuf"
-	"github.com/brimdata/zed/zio"
-	"github.com/brimdata/zed/zio/anyio"
+	"github.com/brimdata/super"
+	"github.com/brimdata/super/compiler"
+	"github.com/brimdata/super/compiler/parser"
+	"github.com/brimdata/super/pkg/storage"
+	"github.com/brimdata/super/runtime"
+	"github.com/brimdata/super/zbuf"
+	"github.com/brimdata/super/zio"
+	"github.com/brimdata/super/zio/anyio"
 	"github.com/teamortix/golang-wasm/wasm"
 )
 
@@ -60,8 +60,8 @@ func zq(opts opts) wasm.Promise {
 		default:
 			return "", errInvalidInput
 		}
-		zctx := zed.NewContext()
-		zr, err := anyio.NewReaderWithOpts(zctx, r, nil, anyio.ReaderOpts{
+		zctx := super.NewContext()
+		zr, err := anyio.NewReaderWithOpts(zctx, r, anyio.ReaderOpts{
 			Format: opts.InputFormat,
 		})
 		if err != nil {
@@ -75,7 +75,7 @@ func zq(opts opts) wasm.Promise {
 		}
 		defer zwc.Close()
 		local := storage.NewLocalEngine()
-		comp := compiler.NewFileSystemCompiler(local)
+		comp := compiler.NewCompiler(local)
 		query, err := runtime.CompileQuery(context.Background(), zctx, comp, flowgraph, []zio.Reader{zr})
 		if err != nil {
 			return "", err
@@ -92,21 +92,15 @@ func zq(opts opts) wasm.Promise {
 }
 
 func parse(program string) (interface{}, error) {
-	ast, err := parser.ParseZed(nil, program)
-	result := ParseResult{AST: ast}
-	if err != nil {
-		var ok bool
-		result.Error, ok = err.(*parser.Error)
-		if !ok {
-			return nil, err
-		}
-	}
+	ast, err := parser.ParseQuery(program)
+	result := ParseResult{AST: ast, Error: err}
+
 	return result, nil
 }
 
 type ParseResult struct {
-	AST   interface{}   `wasm:"ast"`
-	Error *parser.Error `wasm:"error"`
+	AST   interface{} `wasm:"ast"`
+	Error error       `wasm:"error"`
 }
 
 func readableStream(readable js.Value) io.Reader {
