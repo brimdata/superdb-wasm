@@ -27,6 +27,8 @@ github.com/bits-and-blooms/bitset v1.12.0 h1:U/q1fAF7xXRhFCrhROzIfffYnu+dlS38vCZ
 github.com/bits-and-blooms/bitset v1.12.0/go.mod h1:7hO7Gc7Pp1vODcmWvKMRA9BNmbv6a/7QIWpPxHddWR8=
 github.com/brimdata/super v1.18.1-0.20241203210403-5ff9972780f4 h1:oAhnr3Ogp2T/m3QiWACTfKzcZQuPTM5Itm/keW6dLTM=
 github.com/brimdata/super v1.18.1-0.20241203210403-5ff9972780f4/go.mod h1:M7TEdu8siSkUPxmGkkeZ5aUKvIv7dvScFu7lDT2IQd4=
+github.com/brimdata/super v1.18.1-0.20241203223252-1f0c0cea7cfc h1:yc8F6I2++v/LTGZesKXCAeDvNaZ1q0tAD9LFzP4Yt+k=
+github.com/brimdata/super v1.18.1-0.20241203223252-1f0c0cea7cfc/go.mod h1:M7TEdu8siSkUPxmGkkeZ5aUKvIv7dvScFu7lDT2IQd4=
 github.com/cespare/xxhash v1.1.0/go.mod h1:XrSqR1VqqWfGrhpAt58auRo0WTKS1nRRg3ghfAqPWnc=
 github.com/creack/pty v1.1.9/go.mod h1:oKZEueFk5CKHvIhNR5MUki03XCEU+Q6VDXinZuGJ33E=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
