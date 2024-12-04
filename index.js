@@ -1,5 +1,5 @@
-import "../lib/wasm_exec.js";
-import "../lib/bridge.js";
+import "./lib/wasm_exec.js";
+import "./lib/bridge.js";
 
 export class SuperDB {
   /**
