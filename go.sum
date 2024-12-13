@@ -53,6 +53,8 @@ github.com/brimdata/super v1.18.1-0.20241213205840-affe7823bb58 h1:ExH6vT/paGnWV
 github.com/brimdata/super v1.18.1-0.20241213205840-affe7823bb58/go.mod h1:M7TEdu8siSkUPxmGkkeZ5aUKvIv7dvScFu7lDT2IQd4=
 github.com/brimdata/super v1.18.1-0.20241213213608-8939f45da487 h1:zQiRb0c/IyKc4LBbkNGiu1oA5jl9ksnicmb/d6bnJZU=
 github.com/brimdata/super v1.18.1-0.20241213213608-8939f45da487/go.mod h1:M7TEdu8siSkUPxmGkkeZ5aUKvIv7dvScFu7lDT2IQd4=
+github.com/brimdata/super v1.18.1-0.20241213224843-a58d801ddb75 h1:yz9ml/ITUWw7xAK/ee7jSgpkPFCPhRGvIAC+9W9B4Rs=
+github.com/brimdata/super v1.18.1-0.20241213224843-a58d801ddb75/go.mod h1:M7TEdu8siSkUPxmGkkeZ5aUKvIv7dvScFu7lDT2IQd4=
 github.com/cespare/xxhash v1.1.0/go.mod h1:XrSqR1VqqWfGrhpAt58auRo0WTKS1nRRg3ghfAqPWnc=
 github.com/creack/pty v1.1.9/go.mod h1:oKZEueFk5CKHvIhNR5MUki03XCEU+Q6VDXinZuGJ33E=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
