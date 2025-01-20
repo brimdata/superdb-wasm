@@ -3,7 +3,7 @@ module superwasm
 go 1.23
 
 require (
-	github.com/brimdata/super v1.18.1-0.20241218232310-b2c8c0f21d66
+	github.com/brimdata/super v1.18.1-0.20250120175012-0588e2ce5272
 	github.com/teamortix/golang-wasm/wasm v0.0.0-20230308073412-915550b3b9ac
 )
 
