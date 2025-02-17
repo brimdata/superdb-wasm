@@ -25,8 +25,8 @@ github.com/benbjohnson/clock v1.1.0 h1:Q92kusRqC1XV2MjkWETPvjJVqKetz1OzxZB7mHJLj
 github.com/benbjohnson/clock v1.1.0/go.mod h1:J11/hYXuz8f4ySSvYwY0FKfm+ezbsZBKZxNJlLklBHA=
 github.com/bits-and-blooms/bitset v1.12.0 h1:U/q1fAF7xXRhFCrhROzIfffYnu+dlS38vCZtmFVPHmA=
 github.com/bits-and-blooms/bitset v1.12.0/go.mod h1:7hO7Gc7Pp1vODcmWvKMRA9BNmbv6a/7QIWpPxHddWR8=
-github.com/brimdata/super v1.18.1-0.20250217212449-a3fa62b7c10b h1:K0g5BzfFOqzrlE+2/PZvY5scceTaKhpp3a2Cl8MUJE8=
-github.com/brimdata/super v1.18.1-0.20250217212449-a3fa62b7c10b/go.mod h1:ICyfZEUtrBw47Yc7usvP1dMveAXEL87cbvd/vkarGAI=
+github.com/brimdata/super v1.18.1-0.20250217214058-40333e53ecc7 h1:/Odh3CvYu8axghKfMqe8Dymg7oqCfPOr9K71V5/v+mE=
+github.com/brimdata/super v1.18.1-0.20250217214058-40333e53ecc7/go.mod h1:ICyfZEUtrBw47Yc7usvP1dMveAXEL87cbvd/vkarGAI=
 github.com/cespare/xxhash v1.1.0/go.mod h1:XrSqR1VqqWfGrhpAt58auRo0WTKS1nRRg3ghfAqPWnc=
 github.com/creack/pty v1.1.9/go.mod h1:oKZEueFk5CKHvIhNR5MUki03XCEU+Q6VDXinZuGJ33E=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
