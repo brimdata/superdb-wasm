@@ -3,7 +3,7 @@ module superwasm
 go 1.23
 
 require (
-	github.com/brimdata/super v1.18.1-0.20250217214058-40333e53ecc7
+	github.com/brimdata/super v1.18.1-0.20250218191908-c220919428cb
 	github.com/teamortix/golang-wasm/wasm v0.0.0-20230308073412-915550b3b9ac
 )
 
@@ -36,7 +36,7 @@ require (
 	github.com/mschoch/smat v0.2.0 // indirect
 	github.com/pierrec/lz4/v4 v4.1.21 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
-	github.com/ronanh/intcomp v1.1.0 // indirect
+	github.com/ronanh/intcomp v1.1.1 // indirect
 	github.com/segmentio/ksuid v1.0.2 // indirect
 	github.com/shellyln/go-sql-like-expr v0.0.1 // indirect
 	github.com/x448/float16 v0.8.4 // indirect
