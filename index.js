@@ -20,7 +20,6 @@ export class SuperDB {
   static fetchCompressed(url) {
     const headers = { "Content-Type": "application/wasm" };
     const gzip = new DecompressionStream("gzip");
-
     return fetch(url)
       .then((resp) => resp.blob())
       .then((blob) => blob.stream().pipeThrough(gzip))
