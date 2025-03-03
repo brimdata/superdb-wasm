@@ -56,7 +56,6 @@ export class SuperDB {
    * @returns {Promise<any[]>} A promise that resolves to the processed query result.
    */
   run(args) {
-    console.log(args);
     return this.instance.zq({
       input: args.input,
       inputFormat: args.inputFormat,
