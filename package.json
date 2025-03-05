@@ -13,8 +13,9 @@
     "build:wasm": "GOARCH=wasm GOOS=js go build -o superdb.wasm.full main.go && gzip -9 superdb.wasm.full -c > superdb.wasm && rm superdb.wasm.full",
     "build:wasm_exec": "cp $(go env GOROOT)/lib/wasm/wasm_exec.js .",
     "prepack": "yarn clean && yarn build",
-    "postinstall": "yarn playwright install && yarn build",
+    "postinstall": "yarn build",
     "clean": "rm -fr superdb.wasm",
+    "pretest": "yarn playwright install",
     "test": "yarn playwright test",
     "start": "serve ."
   },
