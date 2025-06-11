@@ -1,4 +1,4 @@
-module superwasm
+module github.com/brimdata/superdb-wasm
 
 go 1.24
 
