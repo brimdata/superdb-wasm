@@ -7,7 +7,7 @@
       import { SuperDB } from "./index.js";
       const superdb = await SuperDB.instantiate("superdb.wasm");
       const result = await superdb.run({
-        query: "yield this + 100",
+        query: "values this + 100",
         input: "1 2 3",
       });
       document.querySelector("code").innerHTML = result;

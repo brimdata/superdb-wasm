@@ -26,7 +26,7 @@ Once you have an instance, call the `run({input, query})` method to start queryi
 
 ```js
 const result = await superdb.run({
-  query: "yield this + 100",
+  query: "values this + 100",
   input: "1 2 3",
 });
 
