@@ -24,8 +24,8 @@ github.com/benbjohnson/clock v1.1.0 h1:Q92kusRqC1XV2MjkWETPvjJVqKetz1OzxZB7mHJLj
 github.com/benbjohnson/clock v1.1.0/go.mod h1:J11/hYXuz8f4ySSvYwY0FKfm+ezbsZBKZxNJlLklBHA=
 github.com/bits-and-blooms/bitset v1.12.0 h1:U/q1fAF7xXRhFCrhROzIfffYnu+dlS38vCZtmFVPHmA=
 github.com/bits-and-blooms/bitset v1.12.0/go.mod h1:7hO7Gc7Pp1vODcmWvKMRA9BNmbv6a/7QIWpPxHddWR8=
-github.com/brimdata/super v0.0.0-20250715192009-f014c14fa7a0 h1:d/qpWuJ4hV9qmRqAr4OgI+ysv8fnzwM6a8sdhyFSPKw=
-github.com/brimdata/super v0.0.0-20250715192009-f014c14fa7a0/go.mod h1:tnoRhcJvP+3fbvqxlddL4SGRGzuuAGi6uYvRkLJRpCc=
+github.com/brimdata/super v0.0.0-20250715202519-800e81eafcb6 h1:af24GBTUMm6YUXGAJY5LYlJVwJXwFVNleIhH8lK+L0A=
+github.com/brimdata/super v0.0.0-20250715202519-800e81eafcb6/go.mod h1:cPwjbpq2m9X6dzQ6yhNuPdi9XRHZJf7ud86a+HIb94Q=
 github.com/creack/pty v1.1.9/go.mod h1:oKZEueFk5CKHvIhNR5MUki03XCEU+Q6VDXinZuGJ33E=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
@@ -101,8 +101,8 @@ github.com/stretchr/testify v1.4.0/go.mod h1:j7eGeouHqKxXV5pUuKE4zz7dFj8WfuZ+81P
 github.com/stretchr/testify v1.7.0/go.mod h1:6Fq8oRcR53rry900zMqJjRRixrwX3KX962/h/Wwjteg=
 github.com/stretchr/testify v1.10.0 h1:Xv5erBjTwe/5IxqUQTdXv5kgmIvbHo3QQyRwhJsOfJA=
 github.com/stretchr/testify v1.10.0/go.mod h1:r2ic/lqez/lEtzL7wO/rwa5dbSLXVDPFyf8C91i36aY=
-github.com/teamortix/golang-wasm/wasm v0.0.0-20230308073412-915550b3b9ac h1:2K3l7bvK0s5x+Qkv2paUqlZm+FI5RzoJ/oQLUwWGYvk=
-github.com/teamortix/golang-wasm/wasm v0.0.0-20230308073412-915550b3b9ac/go.mod h1:nskvTyoGIaAsC+664SkRitVI1ft6dm1xerCr50YZsnY=
+github.com/teamortix/golang-wasm/wasm v0.0.0-20230719150929-5d000994c833 h1:PE/ebx5HZAsK42Bs/syRaSWBInfZpj9RifI/sEhGHvo=
+github.com/teamortix/golang-wasm/wasm v0.0.0-20230719150929-5d000994c833/go.mod h1:nskvTyoGIaAsC+664SkRitVI1ft6dm1xerCr50YZsnY=
 github.com/x448/float16 v0.8.4 h1:qLwI1I70+NjRFUR3zs1JPUCgaCXSh3SW62uAKT1mSBM=
 github.com/x448/float16 v0.8.4/go.mod h1:14CWIYCyZA/cWjXOioeEpHeN/83MdbZDRQHoFcYsOfg=
 github.com/xyproto/randomstring v1.0.5 h1:YtlWPoRdgMu3NZtP45drfy1GKoojuR7hmRcnhZqKjWU=

@@ -5,8 +5,8 @@ go 1.24
 toolchain go1.24.0
 
 require (
-	github.com/brimdata/super v0.0.0-20250715192009-f014c14fa7a0
-	github.com/teamortix/golang-wasm/wasm v0.0.0-20230308073412-915550b3b9ac
+	github.com/brimdata/super v0.0.0-20250715202519-800e81eafcb6
+	github.com/teamortix/golang-wasm/wasm v0.0.0-20230719150929-5d000994c833
 )
 
 require (
