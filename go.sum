@@ -24,8 +24,8 @@ github.com/benbjohnson/clock v1.1.0 h1:Q92kusRqC1XV2MjkWETPvjJVqKetz1OzxZB7mHJLj
 github.com/benbjohnson/clock v1.1.0/go.mod h1:J11/hYXuz8f4ySSvYwY0FKfm+ezbsZBKZxNJlLklBHA=
 github.com/bits-and-blooms/bitset v1.12.0 h1:U/q1fAF7xXRhFCrhROzIfffYnu+dlS38vCZtmFVPHmA=
 github.com/bits-and-blooms/bitset v1.12.0/go.mod h1:7hO7Gc7Pp1vODcmWvKMRA9BNmbv6a/7QIWpPxHddWR8=
-github.com/brimdata/super v0.0.0-20250718230607-8310f7445cdf h1:usDJKeoRUXEOpUO/cmDUeVICbrvMpAjDxuZKR7aYrG8=
-github.com/brimdata/super v0.0.0-20250718230607-8310f7445cdf/go.mod h1:cPwjbpq2m9X6dzQ6yhNuPdi9XRHZJf7ud86a+HIb94Q=
+github.com/brimdata/super v0.0.0-20250718231122-efc13b324042 h1:/nOaNrfbgG4Q2vQokxlcIKXgv8imFci1L8sBDB+o1Z8=
+github.com/brimdata/super v0.0.0-20250718231122-efc13b324042/go.mod h1:cPwjbpq2m9X6dzQ6yhNuPdi9XRHZJf7ud86a+HIb94Q=
 github.com/creack/pty v1.1.9/go.mod h1:oKZEueFk5CKHvIhNR5MUki03XCEU+Q6VDXinZuGJ33E=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
