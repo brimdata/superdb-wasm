@@ -14,9 +14,9 @@ import (
 	"github.com/brimdata/super/compiler/parser"
 	"github.com/brimdata/super/pkg/storage"
 	"github.com/brimdata/super/runtime"
+	"github.com/brimdata/super/sio"
+	"github.com/brimdata/super/sio/anyio"
 	"github.com/brimdata/super/zbuf"
-	"github.com/brimdata/super/zio"
-	"github.com/brimdata/super/zio/anyio"
 	"github.com/teamortix/golang-wasm/wasm"
 )
 
@@ -69,14 +69,14 @@ func zq(opts opts) wasm.Promise {
 		}
 		defer zr.Close()
 		var buf bytes.Buffer
-		zwc, err := anyio.NewWriter(zio.NopCloser(&buf), anyio.WriterOpts{Format: opts.OutputFormat})
+		zwc, err := anyio.NewWriter(sio.NopCloser(&buf), anyio.WriterOpts{Format: opts.OutputFormat})
 		if err != nil {
 			return "", err
 		}
 		defer zwc.Close()
 		local := storage.NewLocalEngine()
 		comp := compiler.NewCompiler(local)
-		query, err := runtime.CompileQuery(context.Background(), zctx, comp, flowgraph, []zio.Reader{zr})
+		query, err := runtime.CompileQuery(context.Background(), zctx, comp, flowgraph, []sio.Reader{zr})
 		if err != nil {
 			return "", err
 		}
